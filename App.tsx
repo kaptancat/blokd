@@ -18,7 +18,7 @@ import { generateTasks, spawnFish, spawnEgg } from './utils/gameHelpers';
 // Constants
 const INITIAL_MONEY = 150;
 const INITIAL_GEMS = 5;
-const SAVE_KEY = 'fishFarmState_v15'; 
+const SAVE_KEY = 'fishFarmState_v16'; 
 
 const App: React.FC = () => {
   const [phase, setPhase] = useState<GamePhase>(GamePhase.INTRO);
